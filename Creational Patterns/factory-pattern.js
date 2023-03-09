@@ -5,25 +5,21 @@
 
 /* Örnek olarak bir yazılım şirketimiz olduğunu varsayalım ve iki çeşit çalışanımızın olduğunu düşünelim.
     Bunlar yazılımcı ve yöneticiler olmak üzere ikiye ayrılıyor.
-    Bu iki çalışanı türünü veritabanımıza eklenmesini temiz bir şekilde yapılmasını istiyoruz.
- */
+    Bu iki çalışanı türünü veritabanımıza eklenmesini temiz bir şekilde yapılmasını istiyoruz. */
 
 // Öncelikle yazılımcı türünde bir çalışan oluşturan fonksiyonu yazalım.
-
 function Developer(name) {
   this.name = name;
   this.type = "Developer";
 }
 
 // Yönetici türünde bir çalışan oluşturan fonksiyonu yazalım.
-
 function Manager(name) {
   this.name = name;
   this.type = "Manager";
 }
 
 // Şimdi de bu iki çalışanın türünü belirleyen bir fabrika oluşturalım.
-
 function EmployeeFactory() {
   this.create = (name, type) => {
     switch (type) {
