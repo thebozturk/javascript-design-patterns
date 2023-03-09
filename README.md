@@ -1,6 +1,6 @@
 ## JavaScript Design Patternleri
 
-Bu repoda Javascript’de kullandığımızı Design Patternler’i basit örneklerle anlatmaya çalışacağım. Hem kendim için pratik olması açısından hemde bu konuda bilgi sahibi olmak isteyen geliştiricilerin basit bir şekilde anlayabilmesi için elimden geldiğince açıklamaya çalışacağım.
+Bu repoda JavaScript ile geliştirme yaparken kullandığımızı Design Patternler’i basit örneklerle anlatmaya çalışacağım. Bu konuda bilgi sahibi olmak isteyen geliştiricilerin en basit şekilde anlayabilmesi için elimden geldiğince açıklamaya çalışacağım.
 ### Creational Patterns
 Creational Pattern, nesne yaratma işlemleri ile ilgilenen bir tasarım kalıbıdır. Bu kalıplar, nesnelerin esnek ve yeniden kullanılabilir bir şekilde yaratılması için mekanizmalar sağlarlar. Ayrıca nesne yaratma işlemlerini uygulama kodundan ayırarak tasarımı etkilemeden nesnelerin yaratılmasını değiştirme veya genişletme imkanı verirler.
 
